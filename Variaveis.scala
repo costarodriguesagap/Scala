@@ -1,10 +1,10 @@
 object Variaveis {
-  
   def main (args: Array[String]): Unit = {
-    
-    val a = 5 // definicao de variavel imutavel(constante)
+    // definicao de variavel imutavel(constante) deve ser feito com a palavra reservada "val"
+    // definicao de variavel mutavel(pode ser alterado no decorrer da aplicacao) deve ser feito com a palavra reservada "var"
+    val a = 5 
     println("O valor de a é - " + a)
-    var b = 2 // definicao de variavel mutavel(pode ser alterado no decorrer da aplicacao)
+    var b = 2 
     println("O valor de b é - " + b)
     b = 10
     println("O valor de b é - " + b)
